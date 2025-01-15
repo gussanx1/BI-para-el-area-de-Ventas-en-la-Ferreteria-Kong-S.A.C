@@ -2,6 +2,9 @@
 
 Bienvenido a la documentación oficial del proyecto **Business Intelligence** aplicado a **Ferretería Kong S.A.C.** Este proyecto busca mejorar la toma de decisiones en el área de ventas mediante herramientas de inteligencia de negocios y análisis de datos. A continuación, te presentamos un resumen detallado y creativo de los elementos clave del proyecto.
 
+-----
+![Captura de pantalla 2025-01-15 132141](https://github.com/user-attachments/assets/069cdf2f-8525-48d2-8580-915ebeb26fb2)
+
 ---
 
 ## 📊 Propósito del Proyecto
