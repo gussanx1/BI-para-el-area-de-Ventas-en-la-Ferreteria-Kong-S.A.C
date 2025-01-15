@@ -76,7 +76,9 @@ Limpieza y estructuración de los datos:
 ### ⏬ Carga
 Los datos transformados se cargan en el DataMart para análisis.
 
-![Captura de pantalla 2025-01-15 130628](https://github.com/user-attachments/assets/4985622e-8a9d-405c-b2a5-50bcb5dabad6)
+![Captura de pantalla 2025-01-15 130628](https://github.com/user-attachments/assets/4985622e-8a9d-405c-b2a5-50bcb5dabad6) 
+
+---------
 ![Captura de pantalla 2025-01-15 130653](https://github.com/user-attachments/assets/ab816789-985c-4e54-bd5b-b5d2432dc9b2)
 
 ---
