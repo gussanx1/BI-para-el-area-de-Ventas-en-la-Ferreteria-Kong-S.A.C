@@ -50,6 +50,7 @@ La base de datos transaccional gestiona:
 - **Clientes y proveedores:** Información relevante para la toma de decisiones.
 
 ![Captura de pantalla 2025-01-15 130522](https://github.com/user-attachments/assets/a3a96185-ce6d-4675-81bc-bc7898c1a647)
+
 -------
 ![Captura de pantalla 2025-01-15 130536](https://github.com/user-attachments/assets/57fc15f2-15cf-4fc4-9bac-d52e966a67cd)
 
@@ -90,7 +91,13 @@ Se utilizó **Visual Studio 2022** para implementar un cubo OLAP con las siguien
 - Medidas: Cantidad vendida, impuestos, montos totales.
 - Dimensiones: Productos, clientes, tiempo, empleados.
 
-![Diagrama OLAP](https://via.placeholder.com/800x400?text=Cubo+OLAP)
+![Captura de pantalla 2025-01-15 131522](https://github.com/user-attachments/assets/67f892a3-d171-4e42-ac1f-e749fc670e41)
+
+-------
+![Captura de pantalla 2025-01-15 131534](https://github.com/user-attachments/assets/b340ece7-2efc-48cb-a5f9-58b1b90548a7)
+
+-------
+![Captura de pantalla 2025-01-15 131551](https://github.com/user-attachments/assets/383f56d5-f7e5-4807-8fbb-21968524e10d)
 
 ---
 
