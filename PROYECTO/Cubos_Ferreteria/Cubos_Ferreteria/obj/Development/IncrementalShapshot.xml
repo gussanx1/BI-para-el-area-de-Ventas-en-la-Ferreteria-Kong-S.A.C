@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Cubos_Ferreteria</Database>
+    <Server>GUSTAVO\GUSTAVOSANCHEZ</Server>
+    <ConnectionString>Data Source=GUSTAVO\GUSTAVOSANCHEZ;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>Vw8XsgfWgqJfZHMbf0lSFnT1eSE=25/05/2024 02:42:52 a. m.25/05/2024 02:42:52 a. m.</TimeStamp>
+        <ID>
+          <String>Ferreteria Modelo Estrella</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>bOjIWEoGHAkjcwEch1FbTWcNSio=25/05/2024 02:43:10 a. m.25/05/2024 02:43:10 a. m.</TimeStamp>
+        <ID>
+          <String>Ferreteria Modelo Estrella</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VeQQxv6dCYAM1iex079ovJYlgmk=25/05/2024 02:44:13 a. m.25/05/2024 02:43:54 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Tipocomprobante</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>DcrNaV75FtbotQlkkrGUgh3x7mE=25/05/2024 02:44:28 a. m.25/05/2024 02:43:54 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Empleados</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>atCcxjFxtWyPlkfyxi6PKsjhLUI=25/05/2024 02:44:43 a. m.25/05/2024 02:43:54 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Clientes</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1/aVjrJeCYse3rXzaH8bsbx6Atc=25/05/2024 02:44:59 a. m.25/05/2024 02:43:54 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VawtRbtL9LHhuU3C15yBP7IajDA=25/05/2024 02:45:14 a. m.25/05/2024 02:43:54 a. m.</TimeStamp>
+        <ID>
+          <String>Dim Productos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>aLDEdOC9juyKJzOqUJvKpnPsuMM=25/05/2024 03:44:13 a. m.25/05/2024 02:43:54 a. m.mdsndIm21DkKleIVHkkdPVGBgsA=25/05/2024 02:43:54 a. m.25/05/2024 02:43:54 a. m.</TimeStamp>
+        <ID>
+          <String>Ferreteria Modelo Estrella</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>IYZ4NnR3BnKEFDER1V+eHKnaNho=18/05/2024 06:35:05 p. m.18/05/2024 06:35:05 p. m.</TimeStamp>
+      <ID>
+        <String>Cubos_Ferreteria</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-05-28T03:03:08.21Z</LastDeployed>
+</DeploymentSnapshot>

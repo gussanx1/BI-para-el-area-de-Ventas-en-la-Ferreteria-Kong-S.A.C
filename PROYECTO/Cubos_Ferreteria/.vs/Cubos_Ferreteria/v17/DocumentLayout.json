@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gusta\\source\\repos\\Cubos_Ferreteria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A27D778B-58CE-4AF6-9560-F90EFDA7F44D}|Cubos_Ferreteria\\Cubos_Ferreteria.dwproj|C:\\Users\\gusta\\source\\repos\\Cubos_Ferreteria\\Cubos_Ferreteria\\Ferreteria Modelo Estrella.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{A27D778B-58CE-4AF6-9560-F90EFDA7F44D}|Cubos_Ferreteria\\Cubos_Ferreteria.dwproj|solutionrelative:Cubos_Ferreteria\\Ferreteria Modelo Estrella.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ferreteria Modelo Estrella.cube [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\Cubos_Ferreteria\\Cubos_Ferreteria\\Ferreteria Modelo Estrella.cube",
+              "RelativeDocumentMoniker": "Cubos_Ferreteria\\Ferreteria Modelo Estrella.cube",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\Cubos_Ferreteria\\Cubos_Ferreteria\\Ferreteria Modelo Estrella.cube [Dise\u00F1o]",
+              "RelativeToolTip": "Cubos_Ferreteria\\Ferreteria Modelo Estrella.cube [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-25T07:43:55.052Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
