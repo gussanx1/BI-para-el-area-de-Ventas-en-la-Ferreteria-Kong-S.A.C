@@ -141,17 +141,17 @@ Se utilizó **Visual Studio 2022** para implementar un cubo OLAP con las siguien
 
 **🔧 Herramientas y Servicios Utilizados** 
 
-** Azure Synapse Analytics:** 
+**Azure Synapse Analytics:** 
 
    - Creación de áreas de trabajo para análisis avanzado.
 
    - Configuración de grupos de SQL dedicados para el procesamiento de datos.
 
-** Azure Data Factory:**
+**Azure Data Factory:**
 
    - Implementación de flujos de datos para la transferencia entre orígenes y destinos.
 
-** Almacenamiento en Azure:**
+**Almacenamiento en Azure:**
 
    - Carga y gestión de archivos en contenedores Blob.
 
