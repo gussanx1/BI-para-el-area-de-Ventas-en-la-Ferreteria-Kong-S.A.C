@@ -116,6 +116,18 @@ Se utilizó **Visual Studio 2022** para implementar un cubo OLAP con las siguien
 
 ![image](https://github.com/user-attachments/assets/a63558ac-f815-4c70-8ec0-2abaae17f1f5)
 
+-----------
+![Captura de pantalla 2025-01-15 131812](https://github.com/user-attachments/assets/1fe8b84e-ac0e-4abc-93c5-e5c6b0a2af86)
+
+-----------
+
+![Captura de pantalla 2025-01-15 131837](https://github.com/user-attachments/assets/a1fe2f85-0b22-4e6e-9028-9b95db1feccd)
+
+-----------
+
+![Captura de pantalla 2025-01-15 131852](https://github.com/user-attachments/assets/91c8c5d9-2723-47a2-b990-83c2a3fe0274)
+
+
 ---
 
 ## 📚 Resultados Clave
