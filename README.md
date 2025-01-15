@@ -1,92 +1,122 @@
-# Base de Datos: Zapatería 🥿🛠️
+# 📚 Proyecto: Implementación de Business Intelligence en Ferretería Kong S.A.C. 🏛✨
 
-Este documento describe las tablas y las relaciones de una base de datos para gestionar información relacionada con una zapatería. También se incluye un conjunto de consultas SQL que interactúan con estas tablas para obtener y manipular datos relevantes.
+Bienvenido a la documentación oficial del proyecto **Business Intelligence** aplicado a **Ferretería Kong S.A.C.** Este proyecto busca mejorar la toma de decisiones en el área de ventas mediante herramientas de inteligencia de negocios y análisis de datos. A continuación, te presentamos un resumen detallado y creativo de los elementos clave del proyecto.
 
-## Tablas Principales 📋
+---
 
-### 1. **Empleado.Armador** 👷
-- **Descripción**: Contiene información sobre los armadores.
-- **Campos principales**:
-  - `ArmadorId`: Identificador único del armador.
-  - `ArmadorNombre`: Nombre del armador.
-  - `ArmadorApaterno` y `ArmadorAmaterno`: Apellidos.
-  - `ArmadorEstado`: Estado actual del armador.
-  - `ArmadorDNI`: Documento Nacional de Identidad.
-  - `ArmadorTelefono`: Teléfono de contacto.
-  - `ArmadorDireccion`: Dirección.
-  - `ArmadorNpares`: Número de pares que fabrica.
-  - `ArmadorPagoXpar`: Pago recibido por cada par fabricado.
-  - `ArmadorRegistro`: Fecha de registro.
+## 📊 Propósito del Proyecto
 
-### 2. **Empleado.Perfilador** 🧑‍🏭
-- **Descripción**: Almacena información sobre los perfiladores asociados a los armadores.
-- **Campos principales**:
-  - `PerfiladorId`: Identificador del perfilador.
+El principal objetivo es implementar una solución de inteligencia de negocios enfocada en optimizar la gestión de ventas de la ferretería. Con esta iniciativa, se espera:
 
-### 3. **Empleado.Alistador** 👨‍🔧
-- **Descripción**: Registra los detalles de los alistadores que trabajan en la zapatería.
-- **Campos principales**:
-  - `AlistadorId`: Identificador único del alistador.
-  - `AlistadorNombre`: Nombre.
-  - `AlistadorApaterno` y `AlistadorAmaterno`: Apellidos.
-  - `AlistadorEstado`: Estado actual del alistador.
-  - `AlistadorDNI`: Documento de identidad.
-  - `AlistadorTelefono`: Teléfono de contacto.
-  - `AlistadorDireccion`: Dirección.
-  - `AlistadorNpares`: Número de pares procesados.
-  - `AlistadorPago`: Pago recibido por su trabajo.
-  - `AlistadorRegistro`: Fecha de registro.
+- Mejorar la **eficiencia operativa** y reducir tiempos de respuesta.
+- Identificar **productos estrella** y patrones de consumo.
+- Proporcionar herramientas avanzadas de análisis para decisiones estratégicas basadas en datos.
 
-### 4. **Proceso.Materiales** 🧵📦
-- **Descripción**: Contiene información sobre los materiales utilizados en el proceso de fabricación.
-- **Campos principales**:
-  - `MaterialesId`: Identificador del material.
-  - `MaterialesNombre`: Nombre del material.
-  - `MaterialesDescripcion`: Descripción.
-  - `MaterialesEstado`: Estado actual.
-  - `MaterialesCosto`: Costo del material.
+**Ubicación de la Empresa:**
+- **Dirección:** Av. Tahuantinsuyo 1119, La Esperanza, Trujillo, La Libertad.
+- **Tipo:** Ferretería general minorista.
 
-### 5. **Proceso.Proveedor** 🚚
-- **Descripción**: Registra información sobre los proveedores de materiales.
-- **Campos principales**:
-  - `ProveedorId`: Identificador del proveedor.
+---
 
-### 6. **Proceso.Compra** 🛒
-- **Descripción**: Almacena los detalles de las compras realizadas.
-- **Campos principales**:
-  - `CompraId`: Identificador de la compra.
-  - `CompraDescripcion`: Descripción de la compra.
-  - `CompraFechaCompra`: Fecha en que se realizó la compra.
-  - `CompraFechaEntrega`: Fecha programada de entrega.
-  - `CompraEstado`: Estado actual de la compra.
+## 🎮 Metodología Utilizada
 
-### 7. **Proceso.Kriocas** 🧩
-- **Descripción**: Tabla adicional utilizada para enlazar compras con procesos específicos.
-- **Campos principales**:
-  - `KriocasId`: Identificador de la entidad.
+Se empleó la **metodología Ralph Kimball** con un enfoque incremental y evolutivo, basado en el modelo estrella (**Star Schema**) para la construcción del **DataMart**.
 
-## Relaciones Entre Tablas 🔗
-- **Empleado.Armador** y **Empleado.Perfilador**: Relación uno a uno mediante `ArmadorPerfiladorId`.
-- **Empleado.Alistador** y **Empleado.Armador**: Relación uno a uno mediante `AlistadorArmadorId`.
-- **Proceso.Materiales** y **Proceso.Proveedor**: Relación uno a uno mediante `MaterialesProveedorId`.
-- **Proceso.Compra** con:
-  - **Proceso.Materiales** mediante `CompraMaterialesId`.
-  - **Proceso.Kriocas** mediante `CompraKriocasId`.
-  - **Proceso.Proveedor** mediante `CompraProveedorId`.
+### 🔄 Etapas Principales:
 
-## Consultas SQL 🖥️
+1. **Planificación:**
+   - Análisis de requerimientos.
+   - Diseño conceptual y lógico.
 
-### Consultas con Join 🔄
-- Se utilizan para relacionar tablas y obtener información combinada.
-  - Ejemplo: Obtener información de armadores junto con sus perfiladores asociados.
+2. **Desarrollo:**
+   - Implementación de la base de datos transaccional.
+   - Creación de tablas y carga inicial de datos.
 
-### Consultas con Subconsultas 🔍
-- Realizan operaciones adicionales dentro de las consultas principales.
-  - Ejemplo: Contar la cantidad de armadores vinculados a un perfilador.
+3. **Pruebas:**
+   - Pruebas de integridad de datos y rendimiento.
 
-### Optimizaciones Posibles ⚡
-- **Reemplazar subconsultas por joins**: Mejora el rendimiento al evitar consultas redundantes.
-- **Agregar filtros**: Usar cláusulas `WHERE` para limitar los resultados según criterios específicos.
-- **Uso de alias consistentes**: Facilita la lectura y mantenimiento del código SQL.
+4. **Implementación:**
+   - Migración de datos al DataMart.
+   - Capacitación del personal.
 
-Este README ofrece una visión general de la estructura de la base de datos y los códigos SQL asociados. Para detalles específicos de implementación, consulta los scripts SQL incluidos en el proyecto. ✨
+---
+
+## 🛠️ Arquitectura del Proyecto
+
+### 📖 Base de Datos Transaccional
+La base de datos transaccional gestiona:
+- **Ventas y compras:** Detalles de transacciones.
+- **Inventarios:** Control de productos.
+- **Clientes y proveedores:** Información relevante para la toma de decisiones.
+
+![Diagrama de Base de Datos](https://via.placeholder.com/800x400?text=Diagrama+Base+de+Datos+Ferreter%C3%ADa+Kong)
+
+### 📊 DataMart
+El DataMart adopta un modelo estrella con:
+- **Tabla de Hechos:** `Hecho_Ventas` para datos detallados de ventas.
+- **Dimensiones:** `Clientes`, `Productos`, `Empleados`, `Tiempo`, `TipoComprobante`.
+
+![Modelo Estrella](https://via.placeholder.com/800x400?text=Modelo+Estrella+DataMart)
+
+---
+
+## 🔍 Proceso ETL
+
+### 🔋 Extracción
+Los datos se toman de la base de datos transaccional con herramientas como **SQL Server Integration Services (SSIS)**.
+
+### ⚙️ Transformación
+Limpieza y estructuración de los datos:
+- Eliminación de duplicados.
+- Normalización de formatos.
+
+### ⏬ Carga
+Los datos transformados se cargan en el DataMart para análisis.
+
+![Proceso ETL](https://via.placeholder.com/800x400?text=Proceso+ETL)
+
+---
+
+## 🔢 Implementación OLAP
+
+### Creación de Cubos
+Se utilizó **Visual Studio 2022** para implementar un cubo OLAP con las siguientes características:
+- Medidas: Cantidad vendida, impuestos, montos totales.
+- Dimensiones: Productos, clientes, tiempo, empleados.
+
+![Diagrama OLAP](https://via.placeholder.com/800x400?text=Cubo+OLAP)
+
+---
+
+## 📊 Visualización en Power BI
+
+### 🎨 Dashboards Creados:
+
+1. **Análisis de Ventas por Periodo**:
+   - Tendencias mensuales y anuales.
+
+2. **Rendimiento por Empleado**:
+   - Comparaciones de ventas.
+
+3. **Productos Estrella**:
+   - Identificación de los más vendidos.
+
+![Dashboard Power BI](https://via.placeholder.com/800x400?text=Dashboard+Power+BI)
+
+---
+
+## 📚 Resultados Clave
+
+- **1,032,628 registros** integrados exitosamente.
+- **Automatización del proceso de análisis** con ETL.
+- **Dashboards interactivos** para decisiones informadas.
+
+---
+
+## 🚀 Innovación y Futuro
+
+La implementación de esta solución BI en Ferretería Kong S.A.C. marca un antes y un después en la toma de decisiones. Con una base sólida en tecnologías como SQL Server y Power BI, la empresa está preparada para escalar y adaptarse a los retos del mercado moderno.
+
+---
+
+🌟 **¡Gracias por ser parte de esta transformación digital!**
