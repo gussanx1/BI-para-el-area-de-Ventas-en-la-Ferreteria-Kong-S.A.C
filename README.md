@@ -139,7 +139,7 @@ Se utilizó **Visual Studio 2022** para implementar un cubo OLAP con las siguien
 
 ## 🌐 Implementación en Azure
 
-**🔧 Herramientas y Servicios Utilizados** 
+### 🔧 Herramientas y Servicios Utilizados
 
 **Azure Synapse Analytics:** 
 
@@ -155,7 +155,7 @@ Se utilizó **Visual Studio 2022** para implementar un cubo OLAP con las siguien
 
    - Carga y gestión de archivos en contenedores Blob.
 
-**🔍 Proceso de Configuración**
+### 🔍 Proceso de Configuración
 
 1. **Creación de una cuenta en Azure:**
 
