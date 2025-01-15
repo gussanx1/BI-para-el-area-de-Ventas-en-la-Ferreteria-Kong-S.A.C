@@ -141,41 +141,41 @@ Se utilizó **Visual Studio 2022** para implementar un cubo OLAP con las siguien
 
 **🔧 Herramientas y Servicios Utilizados** 
 
-**- Azure Synapse Analytics:** 
+** Azure Synapse Analytics:** 
 
-- Creación de áreas de trabajo para análisis avanzado.
+   - Creación de áreas de trabajo para análisis avanzado.
 
-- Configuración de grupos de SQL dedicados para el procesamiento de datos.
+   - Configuración de grupos de SQL dedicados para el procesamiento de datos.
 
-**- Azure Data Factory:**
+** Azure Data Factory:**
 
-- Implementación de flujos de datos para la transferencia entre orígenes y destinos.
+   - Implementación de flujos de datos para la transferencia entre orígenes y destinos.
 
-**- Almacenamiento en Azure:**
+** Almacenamiento en Azure:**
 
-- Carga y gestión de archivos en contenedores Blob.
+   - Carga y gestión de archivos en contenedores Blob.
 
 **🔍 Proceso de Configuración**
 
 1. **Creación de una cuenta en Azure:**
 
-- Registro en Azure con una suscripción gratuita.
+   - Registro en Azure con una suscripción gratuita.
 
 2. **Configuración del entorno de trabajo:**
 
-- Creación de grupos de recursos y cuentas de almacenamiento.
+   - Creación de grupos de recursos y cuentas de almacenamiento.
 
 3. **Despliegue de DataMart en Synapse Analytics:**
 
-- Uso de herramientas SQL para importar y gestionar la base de datos FerreteriaMart.
+   - Uso de herramientas SQL para importar y gestionar la base de datos FerreteriaMart.
 
 4. **Integración con Power BI:**
 
-- Uso de la URL del servidor Synapse para conectar y visualizar datos en Power BI.
+   - Uso de la URL del servidor Synapse para conectar y visualizar datos en Power BI.
 
 
 
-**📚 Resultados Clave**
+## 📚 Resultados Clave
 
 - 1,032,628 registros integrados exitosamente.
 
