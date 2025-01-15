@@ -56,7 +56,7 @@ El DataMart adopta un modelo estrella con:
 - **Tabla de Hechos:** `Hecho_Ventas` para datos detallados de ventas.
 - **Dimensiones:** `Clientes`, `Productos`, `Empleados`, `Tiempo`, `TipoComprobante`.
 
-![Modelo Estrella](https://via.placeholder.com/800x400?text=Modelo+Estrella+DataMart)
+![Captura de pantalla 2025-01-15 130610](https://github.com/user-attachments/assets/b164f5bf-fc34-41e2-ba62-0ef686b06dd0)
 
 ---
 
