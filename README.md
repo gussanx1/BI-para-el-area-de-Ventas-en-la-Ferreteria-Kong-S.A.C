@@ -54,6 +54,11 @@ La base de datos transaccional gestiona:
 
 ![Captura de pantalla 2025-01-15 130522](https://github.com/user-attachments/assets/a3a96185-ce6d-4675-81bc-bc7898c1a647)
 
+--------------
+
+![Captura de pantalla 2025-01-15 130536](https://github.com/user-attachments/assets/57fc15f2-15cf-4fc4-9bac-d52e966a67cd)
+
+
 -------
 
 
@@ -63,9 +68,6 @@ El DataMart adopta un modelo estrella con:
 - **Dimensiones:** `Clientes`, `Productos`, `Empleados`, `Tiempo`, `TipoComprobante`.
 
 ![Captura de pantalla 2025-01-15 130610](https://github.com/user-attachments/assets/b164f5bf-fc34-41e2-ba62-0ef686b06dd0)
-
-------
-![Captura de pantalla 2025-01-15 130536](https://github.com/user-attachments/assets/57fc15f2-15cf-4fc4-9bac-d52e966a67cd)
 
 ---
 
