@@ -101,7 +101,7 @@ Se utilizó **Visual Studio 2022** para implementar un cubo OLAP con las siguien
 3. **Productos Estrella**:
    - Identificación de los más vendidos.
 
-![Dashboard Power BI](https://via.placeholder.com/800x400?text=Dashboard+Power+BI)
+![image](https://github.com/user-attachments/assets/a63558ac-f815-4c70-8ec0-2abaae17f1f5)
 
 ---
 
