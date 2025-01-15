@@ -135,20 +135,56 @@ Se utilizó **Visual Studio 2022** para implementar un cubo OLAP con las siguien
 ![Captura de pantalla 2025-01-15 131852](https://github.com/user-attachments/assets/91c8c5d9-2723-47a2-b990-83c2a3fe0274)
 
 
----
 
-## 📚 Resultados Clave
 
-- **1,032,628 registros** integrados exitosamente.
-- **Automatización del proceso de análisis** con ETL.
-- **Dashboards interactivos** para decisiones informadas.
+### 🌐 Implementación en Azure
 
----
+## 🔧 Herramientas y Servicios Utilizados
 
-## 🚀 Innovación y Futuro
+## Azure Synapse Analytics:
 
-La implementación de esta solución BI en Ferretería Kong S.A.C. marca un antes y un después en la toma de decisiones. Con una base sólida en tecnologías como SQL Server y Power BI, la empresa está preparada para escalar y adaptarse a los retos del mercado moderno.
+- Creación de áreas de trabajo para análisis avanzado.
 
----
+- Configuración de grupos de SQL dedicados para el procesamiento de datos.
 
-🌟 **¡Gracias por ser parte de esta transformación digital!**
+## Azure Data Factory:
+
+- Implementación de flujos de datos para la transferencia entre orígenes y destinos.
+
+## Almacenamiento en Azure:
+
+- Carga y gestión de archivos en contenedores Blob.
+
+## 🔍 Proceso de Configuración
+
+## Creación de una cuenta en Azure:
+
+- Registro en Azure con una suscripción gratuita.
+
+## Configuración del entorno de trabajo:
+
+- Creación de grupos de recursos y cuentas de almacenamiento.
+
+## Despliegue de DataMart en Synapse Analytics:
+
+- Uso de herramientas SQL para importar y gestionar la base de datos FerreteriaMart.
+
+## Integración con Power BI:
+
+- Uso de la URL del servidor Synapse para conectar y visualizar datos en Power BI.
+
+
+
+### 📚 Resultados Clave
+
+- 1,032,628 registros integrados exitosamente.
+
+- Automatización del proceso de análisis con ETL.
+
+- Dashboards interactivos para decisiones informadas.
+
+### 🚀 Innovación y Futuro
+
+La implementación de esta solución BI en Ferretería Kong S.A.C. marca un antes y un después en la toma de decisiones. Con una base sólida en tecnologías como SQL Server, Azure y Power BI, la empresa está preparada para escalar y adaptarse a los retos del mercado moderno.
+
+🌟 ¡Gracias por ser parte de esta transformación digital!
