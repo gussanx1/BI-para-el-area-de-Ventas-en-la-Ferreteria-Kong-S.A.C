@@ -49,7 +49,10 @@ La base de datos transaccional gestiona:
 - **Inventarios:** Control de productos.
 - **Clientes y proveedores:** Información relevante para la toma de decisiones.
 
-![Diagrama de Base de Datos](https://via.placeholder.com/800x400?text=Diagrama+Base+de+Datos+Ferreter%C3%ADa+Kong)
+![Captura de pantalla 2025-01-15 130522](https://github.com/user-attachments/assets/a3a96185-ce6d-4675-81bc-bc7898c1a647)
+-------
+![Captura de pantalla 2025-01-15 130536](https://github.com/user-attachments/assets/57fc15f2-15cf-4fc4-9bac-d52e966a67cd)
+
 
 ### 📊 DataMart
 El DataMart adopta un modelo estrella con:
