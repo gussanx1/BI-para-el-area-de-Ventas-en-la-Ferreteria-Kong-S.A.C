@@ -137,45 +137,45 @@ Se utilizó **Visual Studio 2022** para implementar un cubo OLAP con las siguien
 
 
 
-### 🌐 Implementación en Azure
+## 🌐 Implementación en Azure
 
-## 🔧 Herramientas y Servicios Utilizados
+**🔧 Herramientas y Servicios Utilizados** 
 
-## Azure Synapse Analytics:
+**- Azure Synapse Analytics:** 
 
 - Creación de áreas de trabajo para análisis avanzado.
 
 - Configuración de grupos de SQL dedicados para el procesamiento de datos.
 
-## Azure Data Factory:
+**- Azure Data Factory:**
 
 - Implementación de flujos de datos para la transferencia entre orígenes y destinos.
 
-## Almacenamiento en Azure:
+**- Almacenamiento en Azure:**
 
 - Carga y gestión de archivos en contenedores Blob.
 
-## 🔍 Proceso de Configuración
+**🔍 Proceso de Configuración**
 
-## Creación de una cuenta en Azure:
+1. **Creación de una cuenta en Azure:**
 
 - Registro en Azure con una suscripción gratuita.
 
-## Configuración del entorno de trabajo:
+2. **Configuración del entorno de trabajo:**
 
 - Creación de grupos de recursos y cuentas de almacenamiento.
 
-## Despliegue de DataMart en Synapse Analytics:
+3. **Despliegue de DataMart en Synapse Analytics:**
 
 - Uso de herramientas SQL para importar y gestionar la base de datos FerreteriaMart.
 
-## Integración con Power BI:
+4. **Integración con Power BI:**
 
 - Uso de la URL del servidor Synapse para conectar y visualizar datos en Power BI.
 
 
 
-### 📚 Resultados Clave
+**📚 Resultados Clave**
 
 - 1,032,628 registros integrados exitosamente.
 
@@ -183,7 +183,7 @@ Se utilizó **Visual Studio 2022** para implementar un cubo OLAP con las siguien
 
 - Dashboards interactivos para decisiones informadas.
 
-### 🚀 Innovación y Futuro
+## 🚀 Innovación y Futuro
 
 La implementación de esta solución BI en Ferretería Kong S.A.C. marca un antes y un después en la toma de decisiones. Con una base sólida en tecnologías como SQL Server, Azure y Power BI, la empresa está preparada para escalar y adaptarse a los retos del mercado moderno.
 
